@@ -1,5 +1,7 @@
 # react-app-manager
-Quickly builds a react app with routes by defining pages and page sections as a series of interwoven mini React apps
+Quickly builds a react app with routes by defining pages and page sections as a series of interwoven mini React apps.
+
+You essentially create a mini App as a component and then render it as a page that would run at a given path. You also have the option to define it as an element which can also be rendered at whichever path you'd want which could allow an element to appear on multiple pages.
 
 The intended usage is outlined in the `react-app-manager/scripts/main.js` file and is also copied below
 
